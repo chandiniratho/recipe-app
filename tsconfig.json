@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es6",                          // Specify ECMAScript target version
+      "lib": ["dom", "dom.iterable", "esnext"], // Specify library files to be included
+      "allowJs": true,                          // Allow JavaScript files to be compiled
+      "skipLibCheck": true,                     // Skip type checking of declaration files
+      "esModuleInterop": true,                  // Enable compatibility with CommonJS modules
+      "allowSyntheticDefaultImports": true,     // Allow default imports from modules with no default export
+      "strict": true,                           // Enable all strict type-checking options
+      "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+      "module": "esnext",                       // Specify module code generation
+      "moduleResolution": "node",               // Use Node.js module resolution strategy
+      "resolveJsonModule": true,                // Allow importing modules with a '.json' extension
+      "isolatedModules": false,                  // Ensure each file can be safely transpiled without relying on other imports
+      "noEmit": true,                           // Do not emit outputs
+      "jsx": "react-jsx"                        // Specify JSX code generation
+    },
+    "include": ["src"]                          // Include 'src' directory in the compilation
+  }
+  
