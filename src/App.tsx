@@ -1,6 +1,5 @@
-// App.tsx
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom"; // <-- Change BrowserRouter to HashRouter
 import AddRecipe from "./components/AddRecipe";
 import EditRecipe from "./components/EditRecipe";
 import RecipeList from "./components/RecipeList";
